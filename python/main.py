@@ -1,1 +1,3 @@
-print("hello")
+import requests
+
+print("Hello from Dockerized Python!")

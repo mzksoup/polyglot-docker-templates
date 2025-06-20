@@ -1,0 +1,8 @@
+{
+  "name": "Python Dev",
+  "build": {
+    "dockerfile": "../Dockerfile"  // 相対パスで親ディレクトリの Dockerfile を指定
+  },
+  "settings": {},
+  "extensions": []
+}
