@@ -1,0 +1,48 @@
+# macOS固有
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.eggs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pipenv / Poetry / etc
+Pipfile.lock
+poetry.lock
+
+# Docker
+**/*~                       # 編集時の一時ファイル
+docker-compose.override.yml
+.env
+
+# 念のため
+*~                          # 一時ファイル（エディタなど）
+*.swp                       # Vimスワップファイル
+
+# Pytestや他のテストツール
+.cache/
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
