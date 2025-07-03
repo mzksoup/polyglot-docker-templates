@@ -16,3 +16,14 @@ VS Code Dev Containers + Docker Compose を活用した Python 開発環境テ�
 ```bash
 docker compose up --build
 ```
+
+## Structure
+```
+python/  
+├── .devcontainer/  
+│ └── devcontainer.json  
+├── Dockerfile  
+├── requirements.txt  
+├── main.py  
+└── .gitignore
+```
