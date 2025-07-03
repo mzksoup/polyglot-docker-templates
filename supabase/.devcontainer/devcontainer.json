@@ -1,0 +1,11 @@
+{
+  "name": "supabase-dev",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "supabase --version",
+  "remoteUser": "node"
+}
